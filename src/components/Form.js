@@ -7,17 +7,25 @@ import axios from 'axios'
 import Error from './Error'
 
 const Button = styled.button`
+  /* Created with https://www.css-gradient.com */
+  background: #AB0AD3;
+  background: -webkit-linear-gradient(top left, #AB0AD3, #CC08C9);
+  background: -moz-linear-gradient(top left, #AB0AD3, #CC08C9);
+  background: linear-gradient(to bottom right, #AB0AD3, #CC08C9);
   padding: 1rem;
-  background-color: antiquewhite;
-  color: black;
   font-size: 1rem;
   text-transform: uppercase;
   border: none;
   border-radius: 8px;
-  transition: background-color .3s ease;
+  transition: background .3s ease;
+  color: white;
 
   &:hover {
-    background-color: lightcoral;
+    /* Created with https://www.css-gradient.com */
+    background: #D831CE;
+    background: -webkit-linear-gradient(top left, #D831CE, #EDA1E9);
+    background: -moz-linear-gradient(top left, #D831CE, #EDA1E9);
+    background: linear-gradient(to bottom right, #D831CE, #EDA1E9);
     cursor: pointer;
   }
 `

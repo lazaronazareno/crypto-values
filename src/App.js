@@ -8,8 +8,11 @@ import Price from './components/Price'
 import Spinner from './components/Spinner'
 
 const Container = styled.div`
-  background-color: darkblue;
-  color: white;
+  /* Created with https://www.css-gradient.com */
+  background: #2A758E;
+  background: -webkit-linear-gradient(top left, #2A758E, #114DB2);
+  background: -moz-linear-gradient(top left, #2A758E, #114DB2);
+  background: linear-gradient(to bottom right, #2A758E, #114DB2);  color: white;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
@@ -22,8 +25,9 @@ const Container = styled.div`
 `
 
 const Image = styled.img`
-  width: 25rem;
+  width: 30rem;
   object-fit: contain;
+  max-height: 35rem;
 `
 
 const Heading = styled.h1`
@@ -36,8 +40,10 @@ const Heading = styled.h1`
     content: '';
     width: 65%;
     height: 0.2rem;
-    background-color: antiquewhite;
-    display: block;
+    background: #AB0AD3;
+    background: -webkit-linear-gradient(top left, #AB0AD3, #CC08C9);
+    background: -moz-linear-gradient(top left, #AB0AD3, #CC08C9);
+    background: linear-gradient(to bottom right, #AB0AD3, #CC08C9);    display: block;
   }
 `
 

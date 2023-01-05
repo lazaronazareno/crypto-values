@@ -7,8 +7,10 @@
 }
 
 .spinner > div {
-  background-color: #FFF;
-  height: 100%;
+  background: #AB0AD3;
+  background: -webkit-linear-gradient(top left, #AB0AD3, #CC08C9);
+  background: -moz-linear-gradient(top left, #AB0AD3, #CC08C9);
+  background: linear-gradient(to bottom right, #AB0AD3, #CC08C9);  height: 100%;
   width: 6px;
   display: inline-block;
   

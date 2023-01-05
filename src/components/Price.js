@@ -2,9 +2,8 @@ import React from 'react'
 import styled from '@emotion/styled'
 
 const PriceContainer = styled.div`
-  background-color: white;
+  background: #AB0AD3;
   border-radius: 8px;
-  color: black;
   padding: 1rem;
   margin-top: 1rem;
   box-sizing: border-box;
