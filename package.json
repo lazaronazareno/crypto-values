@@ -21,11 +21,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "standard"
-    ],
+    "extends": "standard",
     "rules": {
-      "space-before-function-paren": "off"
+      "space-before-function-paren":"off",
+      "no-unused-vars": "off"
     }
   },
   "browserslist": {
